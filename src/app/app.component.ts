@@ -16,7 +16,7 @@ export class AppComponent {
   }
 
   validate(): void{
-    if( (this.userName.startsWith("a")) && (this.password.startsWith("b")) ){
+    if( (this.userName.toLowerCase()=="amey"|| this.userName.toLowerCase()=="pankaj") && (this.password.toLowerCase()=="test") ){
       this.colr ="green";
       this.message = "Welcome";
     } else {

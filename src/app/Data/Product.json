@@ -1,0 +1,32 @@
+
+   {
+"Product": 
+  [
+    {
+    "Code":1,
+    "Particular":"SHRIKHAND",
+    "Unit":"KG",
+    "Price":110.00
+    },
+    {
+        "Code":2,
+        "Particular":"AMRAKHAND",
+        "Unit":"KG",
+        "Price":140.00
+    },
+    {
+        "Code":3,
+        "Particular":"CHAKKA",
+        "Unit":"KG",
+        "Price":40.00
+    },
+    {
+        "Code":4,
+        "Particular":"NACHNI SATVA",
+        "Unit":"KG",
+        "Price":40.00
+    }
+  ]
+}
+
+

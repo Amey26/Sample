@@ -1,0 +1,28 @@
+{
+    "Customer": [
+        {
+            "Code": 1,
+            "Name": "Jio",
+            "GstNo": "24324234234322",
+            "EmailAddress": "cust@jio.com"
+        },
+        {
+            "Code": 2,
+            "Name": "Airtel",
+            "GstNo": "24324234234322",
+            "EmailAddress": "cust@airtel.com"
+        },
+        { 
+            "Code": 3,
+            "Name": "Vodaphone",
+            "GstNo": "24324234234322",
+            "EmailAddress": "cust@vodaphone.com"
+        },
+        {
+            "Code": 4,
+            "Name": "BSNL",
+            "GstNo": "24324234234322",
+            "EmailAddress": "cust@bsml.com"
+        }
+    ]
+}
