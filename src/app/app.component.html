@@ -1,4 +1,41 @@
 <!--The content below is only a placeholder and can be replaced.-->
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<div>
+  <div class="row">
+      <div class="col-md-1 pull-left">
+        <label>User Name</label> 
+      </div>
+      <div class="col-md-6 pull-left">
+        <input type ="text" [(ngModel)]="userName" />
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-md-1 pull-left">
+          <label>Password</label> 
+        </div>
+        <div class="col-md-6 pull-left">
+          <input type="text" [(ngModel)]="password"/>
+        </div>
+      </div>  
+      <div class="row">
+          <div class="col-md-12">
+            <input type="submit" (click)="validate()"/>
+          </div>
+        </div>
+        
+        <div class="row"> 
+          <div class="col-md-12">
+              <label [style.color] ="colr">{{message}}</label>
+          </div>
+        </div>
+     
+
+</div>
+
+=======
+>>>>>>> initial commit
 <div style="text-align:center">
   <h1>
     Welcome to {{ title }}!
@@ -17,5 +54,9 @@
     <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
   </li>
 </ul>
+<<<<<<< HEAD
+=======
+>>>>>>> 9f0c1f7a6acecc9bc67add58cef58dbea6f77571
+>>>>>>> initial commit
 
 <router-outlet></router-outlet>
