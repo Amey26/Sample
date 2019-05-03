@@ -19,7 +19,8 @@ export class SignInComponent implements OnInit {
   ngOnInit() {
   }
   validate(): void{
-    if( (this.userName.toLowerCase()=="amey"|| this.userName.toLowerCase()=="pankaj") && (this.password.toLowerCase()=="test") ){
+    if( (this.userName.toLowerCase()=="amey"|| this.userName.toLowerCase()=="pankaj") &&
+        (this.password.toLowerCase()=="test") ){
       this.colr ="green";
       this.message = "Welcome";
       this.router.navigate(['/header']);
