@@ -9,13 +9,14 @@ import {Product} from "../../models/product.model";
 })
 export class InvAddComponent implements OnInit {
   products: Product[];
+  
   constructor(private productService : ProductService ) { }
 
   ngOnInit() {
     this.productService.getProducts().subscribe(data => {
       console.log(data);
-      this.products = data;
-  });
+      this.products = data; 
+    });
   }
 
 }

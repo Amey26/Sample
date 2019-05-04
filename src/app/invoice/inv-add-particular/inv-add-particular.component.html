@@ -1,0 +1,7 @@
+
+<h1>Invoice Add particular - Auto suggest Component</h1>
+<input [formControl]="queryField" type="text" id="keyword1" placeholder="Search for particulars..." list="dynmicProductNames"/>
+<datalist id="dynmicProductNames">
+  <option *ngFor="let item of productNames" [value]="item">{{item}}</option>
+</datalist>
+       
