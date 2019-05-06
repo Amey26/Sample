@@ -23,9 +23,6 @@ export class ProductService {
       ))),
     );      
   }
-<<<<<<< HEAD
- 
-=======
 
   public searchProductNames(keyword: string): Observable<any[]> {
     return this.http.get("../app/Data/Product.json").pipe(
@@ -34,6 +31,5 @@ export class ProductService {
         ) ),
     );      
   }
->>>>>>> f6b64ff25688b61faf05354960d5a12468a43e25
 }
 
