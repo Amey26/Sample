@@ -16,3 +16,8 @@ export class Product {
       this.rate = rate;
     }
 }
+export class City
+{
+  public label:  string;
+  public value :string;
+}

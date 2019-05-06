@@ -1,28 +1,25 @@
-{
-    "Customer": [
+
+   {
+    "Customer": 
+      [
         {
-            "Code": 1,
-            "Name": "Jio",
-            "GstNo": "24324234234322",
-            "EmailAddress": "cust@jio.com"
+        "Code":1,
+        "Particular":"ABCD"
         },
         {
-            "Code": 2,
-            "Name": "Airtel",
-            "GstNo": "24324234234322",
-            "EmailAddress": "cust@airtel.com"
-        },
-        { 
-            "Code": 3,
-            "Name": "Vodaphone",
-            "GstNo": "24324234234322",
-            "EmailAddress": "cust@vodaphone.com"
+            "Code":2,
+            "Particular":"DEFA"
         },
         {
-            "Code": 4,
-            "Name": "BSNL",
-            "GstNo": "24324234234322",
-            "EmailAddress": "cust@bsml.com"
+            "Code":3,
+            "Particular":"WEREWR"
+        },
+        {
+            "Code":4,
+            "Particular":"werwrwer"
         }
-    ]
-}
+      ]
+    }
+    
+    
+    
