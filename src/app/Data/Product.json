@@ -25,6 +25,18 @@
         "Particular":"NACHNI SATVA",
         "Unit":"KG",
         "Price":40.00
+    },
+    {
+        "Code":5,
+        "Particular":"SHRIAKHAND",
+        "Unit":"KG",
+        "Price":50.00
+    },
+    {
+        "Code":6,
+        "Particular":"SHRIABKHAND",
+        "Unit":"KG",
+        "Price":60.00
     }
   ]
 }

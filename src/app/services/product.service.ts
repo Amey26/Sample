@@ -23,6 +23,17 @@ export class ProductService {
       ))),
     );      
   }
+<<<<<<< HEAD
  
+=======
+
+  public searchProductNames(keyword: string): Observable<any[]> {
+    return this.http.get("../app/Data/Product.json").pipe(
+      map((data: any[]) => data["Product"].filter( 
+        p => p.Particular.toLowerCase().startsWith(keyword.toLowerCase() )
+        ) ),
+    );      
+  }
+>>>>>>> f6b64ff25688b61faf05354960d5a12468a43e25
 }
 
