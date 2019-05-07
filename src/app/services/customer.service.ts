@@ -15,8 +15,8 @@ export class CustomerService {
     return this.http.get("../app/Data/Customer.json").pipe(
       map((data: any[]) => data["Customer"].map((custJson: any) =>
         new Customer(
-          custJson.id,
-          custJson.name
+          custJson.Code,
+          custJson.Particular
       ))),
     );      
   }
